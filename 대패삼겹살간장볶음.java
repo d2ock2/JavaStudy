@@ -1,12 +1,10 @@
 import javax.swing.JOptionPane;
 
 public class 대패삼겹살간장볶음 {
-
 	public static void main(String[] args) {
 		String x = JOptionPane.showInputDialog("몇 인분 만드실 거에요?");
 		print(x);
 	}
-
 	public static void print(String x) {
 		System.out.println(Integer.parseInt(x)+"인분 제작에 필요한 재료\n");
 		System.out.println("대패삼겹살 "+(150*(Integer.parseInt(x)))+"g"+" / 대파 "+(0.5*Integer.parseInt(x))+"대");
